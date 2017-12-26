@@ -1,0 +1,35 @@
+
+Use CMake 3.6
+
+VCD10_CV320_Win64: 
+VC version: Visual Studio 2015 (VC14) 64 bit
+
+
+OCV 3.x
+point variables to: 
+OpenCV_DIR :  F:/DevLibs/OCV/opencv-3.2.0-Build
+
+In debug|Release build: 
+Copy following Dlls 
+from F:\DevLibs\OCV\opencv-3.2.0-Build\bin\Debug|Release
+to   F:\Home\VideoDetect\VCD10_CV320_Win64-Build\Debug|Release
+
+
+OCV 2.x
+point variables to: 
+OpenCV_DIR :  F:/DevLibs/OCV/opencv-2.4.13-Build
+
+In debug|Release build: 
+Copy following Dlls 
+from F:\DevLibs\OCV\opencv-2.4.13-Build\bin\Debug|Release
+to   F:\Home\VideoDetect\VCD10_CV2413_Win64-Build\Debug|Release
+
+
+
+
+
+short keys: 
+s - Sketch/Paint mode on/off
+a - Alien/Human  mode on/off
+e - Evil/Good    mode on/off
+d - Debug mode
